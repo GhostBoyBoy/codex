@@ -1,0 +1,6 @@
+load("//:defs.bzl", "codex_rust_crate")
+
+codex_rust_crate(
+    name = "worker-adapter",
+    crate_name = "codex_worker_adapter",
+)

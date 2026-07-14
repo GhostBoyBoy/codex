@@ -4518,6 +4518,32 @@ dependencies = [
 ]
 
 [[package]]
+name = "codex-worker-adapter"
+version = "0.0.0"
+dependencies = [
+ "anyhow",
+ "axum",
+ "clap",
+ "codex-app-server-client",
+ "codex-app-server-protocol",
+ "codex-arg0",
+ "codex-config",
+ "codex-feedback",
+ "codex-login",
+ "codex-protocol",
+ "codex-rollout",
+ "futures",
+ "pretty_assertions",
+ "reqwest 0.12.28",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "wiremock",
+]
+
+[[package]]
 name = "color-eyre"
 version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
