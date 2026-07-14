@@ -1293,6 +1293,7 @@ fn test_user_config_file_from_env() -> Option<std::path::PathBuf> {
     None
 }
 
+#[cfg_attr(not(debug_assertions), allow(unused_mut))]
 fn loader_overrides_with_test_user_config_file(
     mut loader_overrides: LoaderOverrides,
     test_user_config_file: Option<std::path::PathBuf>,
